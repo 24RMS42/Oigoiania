@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/146/trunk
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/27/trunk/default.properties
+END
+create_javadocs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/74/trunk/create_javadocs.sh
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/125/trunk/AndroidManifest.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/98/trunk/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/140/trunk/.project
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/6/trunk/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/105/trunk/.classpath
+END

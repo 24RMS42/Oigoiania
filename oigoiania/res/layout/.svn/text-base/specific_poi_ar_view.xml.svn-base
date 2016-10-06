@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/parent_rl" >
+
+    <RelativeLayout
+        android:id="@+id/camscreen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/arview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        android:rotation="90" >
+    </RelativeLayout>
+    
+ <RelativeLayout
+        android:id="@+id/arroe_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/distance_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#E5E5E5"
+         >
+
+       <TextView
+           android:id="@+id/distance"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="15dp"
+           android:text="Distance:2.5 Kilometers"
+           android:textSize="20sp"
+           android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>

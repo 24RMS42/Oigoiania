@@ -1,0 +1,37 @@
+10
+
+dir
+146
+http://android-augment-reality-framework.googlecode.com/svn/trunk/res
+http://android-augment-reality-framework.googlecode.com/svn
+
+
+
+2013-03-19T22:56:38.393274Z
+146
+phishman3579
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+62fff5c4-409e-9657-2154-d1f60553b75b
+
+drawable
+dir
+
+menu
+dir
+
+values
+dir
+

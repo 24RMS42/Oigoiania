@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/oigoianiabeta/!svn/ver/54/trunk/src/com/oigoiania/augmentedreality
+END
+AugmentedReality.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oigoianiabeta/!svn/ver/532/trunk/src/com/oigoiania/augmentedreality/AugmentedReality.java
+END
+OrientationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/oigoianiabeta/!svn/ver/535/trunk/src/com/oigoiania/augmentedreality/OrientationManager.java
+END
+SensorsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oigoianiabeta/!svn/ver/533/trunk/src/com/oigoiania/augmentedreality/SensorsFragment.java
+END
+NewSensorsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/oigoianiabeta/!svn/ver/533/trunk/src/com/oigoiania/augmentedreality/NewSensorsFragment.java
+END
+AugmentedRedarView.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/oigoianiabeta/!svn/ver/533/trunk/src/com/oigoiania/augmentedreality/AugmentedRedarView.java
+END
+AugmentedView.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oigoianiabeta/!svn/ver/417/trunk/src/com/oigoiania/augmentedreality/AugmentedView.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oigoianiabeta/!svn/ver/50/trunk/src/com/oigoiania/augmentedreality/package-info.java
+END
+OigoianiaDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/oigoianiabeta/!svn/ver/533/trunk/src/com/oigoiania/augmentedreality/OigoianiaDataSource.java
+END
+CircleUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oigoianiabeta/!svn/ver/535/trunk/src/com/oigoiania/augmentedreality/CircleUtils.java
+END

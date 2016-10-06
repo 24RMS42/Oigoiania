@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/oigoianiabeta/!svn/ver/450/trunk/src/com/oigoiania/adapters
+END
+Category_Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oigoianiabeta/!svn/ver/396/trunk/src/com/oigoiania/adapters/Category_Adapter.java
+END
+Subcategory_Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oigoianiabeta/!svn/ver/183/trunk/src/com/oigoiania/adapters/Subcategory_Adapter.java
+END
+POI_Images_Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oigoianiabeta/!svn/ver/411/trunk/src/com/oigoiania/adapters/POI_Images_Adapter.java
+END
+TodayInOigoianiaListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/oigoianiabeta/!svn/ver/459/trunk/src/com/oigoiania/adapters/TodayInOigoianiaListAdapter.java
+END
+SubCategoryPOIsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oigoianiabeta/!svn/ver/295/trunk/src/com/oigoiania/adapters/SubCategoryPOIsAdapter.java
+END
+SubCategoryPOIs_Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oigoianiabeta/!svn/ver/542/trunk/src/com/oigoiania/adapters/SubCategoryPOIs_Adapter.java
+END
+ResearchAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oigoianiabeta/!svn/ver/540/trunk/src/com/oigoiania/adapters/ResearchAdapter.java
+END
+Promotion_Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oigoianiabeta/!svn/ver/421/trunk/src/com/oigoiania/adapters/Promotion_Adapter.java
+END
+News_Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/oigoianiabeta/!svn/ver/535/trunk/src/com/oigoiania/adapters/News_Adapter.java
+END
+Dumy_ResearchAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oigoianiabeta/!svn/ver/336/trunk/src/com/oigoiania/adapters/Dumy_ResearchAdapter.java
+END

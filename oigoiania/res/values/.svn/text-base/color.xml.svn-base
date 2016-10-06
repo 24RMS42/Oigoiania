@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="heading_bg" >#523C6D</color>
+    <color name="heading_Text" >#FFFFFF</color>
+    <color name="searchfor_bg">#6F698F</color>
+    <color name="searchbutton_bg">#C5D3DE</color>
+    <color name="heading_line">#9EB3CE</color>
+    <color name="event_distnce_bg">#B6C9D7</color>
+    <color name="distace_color">#FF0000</color>
+     <color name="white">#ffffff</color>
+</resources>

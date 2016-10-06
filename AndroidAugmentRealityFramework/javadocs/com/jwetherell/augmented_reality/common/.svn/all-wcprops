@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/104/trunk/javadocs/com/jwetherell/augmented_reality/common
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/104/trunk/javadocs/com/jwetherell/augmented_reality/common/package-frame.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/104/trunk/javadocs/com/jwetherell/augmented_reality/common/package-tree.html
+END
+Vector.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/104/trunk/javadocs/com/jwetherell/augmented_reality/common/Vector.html
+END
+Matrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/104/trunk/javadocs/com/jwetherell/augmented_reality/common/Matrix.html
+END
+PitchBearingCalculator.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/74/trunk/javadocs/com/jwetherell/augmented_reality/common/PitchBearingCalculator.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/104/trunk/javadocs/com/jwetherell/augmented_reality/common/package-summary.html
+END
+PitchAzimuthCalculator.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/104/trunk/javadocs/com/jwetherell/augmented_reality/common/PitchAzimuthCalculator.html
+END
+LowPassFilter.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/104/trunk/javadocs/com/jwetherell/augmented_reality/common/LowPassFilter.html
+END
+Utilities.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/104/trunk/javadocs/com/jwetherell/augmented_reality/common/Utilities.html
+END

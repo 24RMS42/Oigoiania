@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/oigoianiabeta/!svn/ver/413/trunk/src/com/oigoiania/network
+END
+MyThreadPoolExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oigoianiabeta/!svn/ver/119/trunk/src/com/oigoiania/network/MyThreadPoolExecutor.java
+END
+RequestListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/oigoianiabeta/!svn/ver/514/trunk/src/com/oigoiania/network/RequestListener.java
+END
+BaseRequestListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oigoianiabeta/!svn/ver/544/trunk/src/com/oigoiania/network/BaseRequestListener.java
+END

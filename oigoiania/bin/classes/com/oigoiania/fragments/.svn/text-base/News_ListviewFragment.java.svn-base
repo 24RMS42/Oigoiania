@@ -1,0 +1,149 @@
+package com.oigoiania.fragments;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import org.json.JSONException;
+
+import android.content.Intent;
+import android.hardware.SensorEvent;
+import android.location.Location;
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ListView;
+
+import com.br.oigoiania.R;
+import com.br.oigoiania.SpecificPOI_Activity;
+import com.crittercism.app.Crittercism;
+import com.oigoiania.adapters.News_Adapter;
+import com.oigoiania.augmentedreality.OrientationManager;
+import com.oigoiania.logger.Logger;
+import com.oigoiania.parsers.MyDataHolder;
+import com.oigoiania.parsers.Parser;
+import com.oigoiania.util.Util;
+
+public class News_ListviewFragment extends SensorForArrowFragment implements
+		OnItemClickListener {
+	private final String tag = "News_ListviewFragment";
+	private FragmentActivity mActvity;
+	private ListView newEntries_lv = null;
+	private static List<MyDataHolder> data = new ArrayList<MyDataHolder>();
+	private News_Adapter adapter = null;
+	private static News_ListviewFragment mCategoryListView = null;
+	private OrientationManager mOrientationManager = new OrientationManager();
+	private Timer timerOrientation = null;
+
+	public static News_ListviewFragment getInstance() {
+		return mCategoryListView;
+	}
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		mCategoryListView = this;
+		mActvity = getActivity();
+		Logger.d(tag, "onCreate()");
+		mOrientationManager.startSensorMonitoring(mActivity);
+		timerOrientation = new Timer();
+		timerOrientation.schedule(new TimerTask() {
+
+			@Override
+			public void run() {
+				if (Util.currentLocation != null && adapter != null) {
+					int[] out = new int[3];
+					mOrientationManager.getOrientation(out);
+					Util.currentBearing = out[0];
+					mActivity.runOnUiThread(new Runnable() {
+						public void run() {
+							adapter.notifyDataSetChanged();
+						}
+					});
+				} else {
+					Log.d(tag,
+							"WARNING: No location found when getting angle...");
+				}
+			}
+		}, 0, 500);
+	}
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		Logger.d(tag, "onCreateView()");
+		if (inflater == null)
+			inflater = (LayoutInflater) getLayoutInflater(savedInstanceState);
+		View view = inflater.inflate(R.layout.new_listview_fragment, null);
+		newEntries_lv = (ListView) view.findViewById(R.id.listView_new);
+		newEntries_lv.setOnItemClickListener(this);
+		Logger.d(tag, "Data on CreateView" + data.toString());
+		return view;
+	}
+
+	@Override
+	public void onActivityCreated(Bundle savedInstanceState) {
+		super.onActivityCreated(savedInstanceState);
+		adapter = new News_Adapter(getActivity(), data);
+		newEntries_lv.setAdapter(adapter);
+	}
+
+	public void notifyDataSetChange() {
+
+		try {
+			Logger.d(tag, "notifyDataSetChange");
+			if (Util.rootJsonObject != null) {
+				data.clear();
+
+				// data.addAll(Parser
+				// .parsePromotion_DataResponse(Util.rootJsonObject));
+				data.addAll(Parser.parse(Util.rootJsonObject));
+				// adapter = new News_Adapter(getActivity(), data);
+				// todayinog_lv.setAdapter(adapter);
+				adapter.notifyDataSetChanged();
+			}
+			Logger.d(tag, "data size :" + Util.rootJsonObject.toString());
+		} catch (JSONException e) {
+			Crittercism.logHandledException(e);
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> parent, View view, int position,
+			long id) {
+		MyDataHolder dathodler = (MyDataHolder) view.getTag();
+		Intent intent = new Intent(getActivity(), SpecificPOI_Activity.class);
+		Bundle bundle = new Bundle();
+		bundle.putSerializable("poi", dathodler);
+		bundle.putString("type", "sobre");
+		intent.putExtras(bundle);
+		mActvity.startActivity(intent);
+		mActvity.overridePendingTransition(R.anim.incoming, R.anim.outgoing);
+	}
+
+	@Override
+	protected void onSensorChange(SensorEvent event) {
+	}
+
+	@Override
+	protected void onLocationChange(Location location) {
+		super.onLocationChange(location);
+		Util.currentLocation = location;
+	}
+
+	@Override
+	public void onDestroy() {
+		timerOrientation.cancel();
+		timerOrientation.purge();
+		timerOrientation = null;
+		super.onDestroy();
+		data.clear();
+	}
+}

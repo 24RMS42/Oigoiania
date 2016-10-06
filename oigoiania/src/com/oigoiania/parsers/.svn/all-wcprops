@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/oigoianiabeta/!svn/ver/451/trunk/src/com/oigoiania/parsers
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/oigoianiabeta/!svn/ver/544/trunk/src/com/oigoiania/parsers/Parser.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/oigoianiabeta/!svn/ver/235/trunk/src/com/oigoiania/parsers/Category.java
+END
+SubCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/oigoianiabeta/!svn/ver/235/trunk/src/com/oigoiania/parsers/SubCategory.java
+END
+Subcategory_Holder.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oigoianiabeta/!svn/ver/115/trunk/src/com/oigoiania/parsers/Subcategory_Holder.java
+END
+BaseDataHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/oigoianiabeta/!svn/ver/230/trunk/src/com/oigoiania/parsers/BaseDataHolder.java
+END
+Cat_SubCatDataHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oigoianiabeta/!svn/ver/211/trunk/src/com/oigoiania/parsers/Cat_SubCatDataHolder.java
+END
+ImagesHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/oigoianiabeta/!svn/ver/303/trunk/src/com/oigoiania/parsers/ImagesHolder.java
+END
+MyBaseDataHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oigoianiabeta/!svn/ver/235/trunk/src/com/oigoiania/parsers/MyBaseDataHolder.java
+END
+MyDataHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/oigoianiabeta/!svn/ver/451/trunk/src/com/oigoiania/parsers/MyDataHolder.java
+END
+SubCatergoryPOIsDataHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/oigoianiabeta/!svn/ver/225/trunk/src/com/oigoiania/parsers/SubCatergoryPOIsDataHolder.java
+END

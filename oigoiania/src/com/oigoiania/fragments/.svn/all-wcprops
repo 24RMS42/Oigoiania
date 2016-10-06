@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/oigoianiabeta/!svn/ver/449/trunk/src/com/oigoiania/fragments
+END
+GeneralGoogleMapviewFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/oigoianiabeta/!svn/ver/548/trunk/src/com/oigoiania/fragments/GeneralGoogleMapviewFragment.java
+END
+Promotion_ListViewFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/oigoianiabeta/!svn/ver/548/trunk/src/com/oigoiania/fragments/Promotion_ListViewFragment.java
+END
+SpecificPOI_ImagesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/oigoianiabeta/!svn/ver/492/trunk/src/com/oigoiania/fragments/SpecificPOI_ImagesFragment.java
+END
+News_ListviewFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oigoianiabeta/!svn/ver/548/trunk/src/com/oigoiania/fragments/News_ListviewFragment.java
+END
+Subcategory_Item_ListViewFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/oigoianiabeta/!svn/ver/548/trunk/src/com/oigoiania/fragments/Subcategory_Item_ListViewFragment.java
+END
+SubcategoryListView_Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/oigoianiabeta/!svn/ver/548/trunk/src/com/oigoiania/fragments/SubcategoryListView_Fragment.java
+END
+TodayListView_Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oigoianiabeta/!svn/ver/548/trunk/src/com/oigoiania/fragments/TodayListView_Fragment.java
+END
+SpecificPOI_Info_Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/oigoianiabeta/!svn/ver/548/trunk/src/com/oigoiania/fragments/SpecificPOI_Info_Fragment.java
+END
+SensorForArrowFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oigoianiabeta/!svn/ver/506/trunk/src/com/oigoiania/fragments/SensorForArrowFragment.java
+END
+GeneralARFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oigoianiabeta/!svn/ver/548/trunk/src/com/oigoiania/fragments/GeneralARFragment.java
+END
+SpecificGoogleMapviewFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/oigoianiabeta/!svn/ver/506/trunk/src/com/oigoiania/fragments/SpecificGoogleMapviewFragment.java
+END
+PoiAR_Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oigoianiabeta/!svn/ver/535/trunk/src/com/oigoiania/fragments/PoiAR_Fragment.java
+END
+NewPoiAR_Fragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oigoianiabeta/!svn/ver/533/trunk/src/com/oigoiania/fragments/NewPoiAR_Fragment.java
+END
+CategoryListViewFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/oigoianiabeta/!svn/ver/548/trunk/src/com/oigoiania/fragments/CategoryListViewFragment.java
+END

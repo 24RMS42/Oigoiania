@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/oigoianiabeta/!svn/ver/101/trunk/res/anim
+END
+outgoing.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/oigoianiabeta/!svn/ver/331/trunk/res/anim/outgoing.xml
+END
+fadein.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/oigoianiabeta/!svn/ver/520/trunk/res/anim/fadein.xml
+END
+zoom_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/oigoianiabeta/!svn/ver/101/trunk/res/anim/zoom_in.xml
+END
+fadeout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/oigoianiabeta/!svn/ver/101/trunk/res/anim/fadeout.xml
+END
+zoom_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/oigoianiabeta/!svn/ver/101/trunk/res/anim/zoom_out.xml
+END
+incoming.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/oigoianiabeta/!svn/ver/331/trunk/res/anim/incoming.xml
+END

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/txtwelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/edtEmail"
+                style="@style/editext_graybg"
+                android:layout_width="@dimen/signup_edt_width"
+                android:layout_height="@dimen/signup_edt_height"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="@dimen/signup_between_txt_margin"
+                android:hint="Email">
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/edtPassword"
+                style="@style/editext_graybg"
+                android:layout_width="@dimen/signup_edt_width"
+                android:layout_height="@dimen/signup_edt_height"
+                android:inputType="textPassword"
+                android:layout_marginBottom="@dimen/signup_between_txt_margin"
+                android:hint="Password">
+            </EditText>
+
+            <RelativeLayout
+                android:layout_width="@dimen/signup_edt_width"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/btnForgotPwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Forgot Password?"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:background="@android:color/transparent"/>              
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Signin"
+                android:id="@+id/btnLogin"
+                android:layout_gravity="right"
+                android:background="@drawable/image_button"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="42dp"
+        android:background="@drawable/go_back_icon"/>
+
+</RelativeLayout>

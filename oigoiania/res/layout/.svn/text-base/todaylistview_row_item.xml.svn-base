@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/rel_innerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/title_txtview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/distance_txtview"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Crash Music"
+                android:textColor="@color/heading_bg"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/time_txtview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/title_txtview"
+                android:layout_below="@+id/title_txtview"
+                android:layout_marginTop="5dp"
+                android:text="12/03/2013 "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/des_txtview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/title_txtview"
+                android:layout_below="@+id/time_txtview"
+                android:layout_marginBottom="0dp"
+                android:layout_toLeftOf="@+id/distance_txtview"
+                android:maxLines="2"
+                android:text="Disel"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/image_listimage"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_alignTop="@+id/title_txtview"
+                android:layout_alignBottom="@+id/des_txtview"
+                android:scaleType="centerCrop" />
+            <!-- android:src="@drawable/common_signin_btn_icon_pressed_dark" -->
+
+            <TextView
+                android:id="@+id/distance_txtview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/des_txtview"
+                android:layout_alignBottom="@+id/des_txtview"
+                android:layout_toLeftOf="@+id/image_listimage"
+                android:text="1.75 m"
+                android:textColor="#ff0000"
+                android:textSize="16sp" />
+            
+            
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/image_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rel_innerlayout"
+            android:background="@color/heading_bg" />
+    </RelativeLayout>
+
+</LinearLayout>

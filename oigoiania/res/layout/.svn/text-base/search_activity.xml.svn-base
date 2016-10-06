@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_heading"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/heading_bg" >
+
+        <ImageView
+            android:id="@+id/upcarate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/back_arrow" />
+
+        <TextView
+            android:id="@+id/heading_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/upcarate"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/search"
+            android:textColor="@color/heading_Text"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dividerline"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@color/heading_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_forserach"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/searchfor_bg" >
+
+        <TextView
+            android:id="@+id/forseacrh_txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/searchfor"
+            android:textColor="@color/heading_Text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_bg_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff" >
+
+        <EditText
+            android:id="@+id/search_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_bar_bg"
+            android:ems="10"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:singleLine="true" >
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/searchbutton_bg" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/search_button" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/heading_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp" >
+
+        <ListView
+            android:id="@+id/searchlistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#C4C4C4"
+            android:clickable="true"
+            android:visibility="visible" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

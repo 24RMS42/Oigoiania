@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="NotSibling" severity="ignore">
+        <ignore path="res/layout-large/contactus_activity.xml" />
+    </issue>
+    <issue id="UnknownId" severity="ignore" />
+</lint>

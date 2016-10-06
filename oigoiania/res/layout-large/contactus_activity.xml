@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_heading"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/heading_bg" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_arrow" />
+
+        <TextView
+            android:id="@+id/heading_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imageView2"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/contact"
+            android:textColor="@color/heading_Text"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/contactus_background" >
+
+        <RelativeLayout
+            android:id="@+id/rl_toplayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/sendmessage_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/sendmessage"
+                android:textSize="32sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/phone_txtview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/sendmessage_txt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Telefone No.  	96275580"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/website_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView3"
+                android:layout_below="@+id/phone_txtview"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Website"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/weblink_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone_txtview"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/website_text"
+                android:background="#B4C6EB"
+                android:text="oigoiania.com.br"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/image_divider"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/weblink_txt"
+                android:layout_marginTop="10dp"
+                android:background="@color/heading_bg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_innercontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_toplayout" >
+
+            <TextView
+                android:id="@+id/name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/website_text"
+                android:layout_below="@+id/image_divider"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/name"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/name_editText"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/name_txt"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:inputType="textEmailSubject" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/email_txtview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/website_text"
+                android:layout_below="@+id/name_editText"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Email ID"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/email_editText"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/email_txtview"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/message_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/website_text"
+                android:layout_below="@+id/email_editText"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/message"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/message_editText"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rel_innercontent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_bg"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:minHeight="55dp"
+            android:singleLine="false" />
+
+        <ImageView
+            android:id="@+id/send_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/message_editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/send_feedback_btn" />
+    </RelativeLayout>
+
+</LinearLayout>

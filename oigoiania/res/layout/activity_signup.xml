@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/signup_padding_top">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="20dp" >
+
+
+            <EditText
+                android:id="@+id/edtName"
+                style="@style/editext_graybg"
+                android:layout_width="@dimen/signup_edt_width"
+                android:layout_height="@dimen/signup_edt_height"
+                android:inputType="text"
+                android:hint="Full Name"
+                android:layout_marginBottom="@dimen/signup_between_txt_margin">
+            </EditText>
+
+            
+			<EditText
+                android:id="@+id/edtEmail"
+                style="@style/editext_graybg"
+                android:layout_width="@dimen/signup_edt_width"
+                android:layout_height="@dimen/signup_edt_height"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:layout_marginBottom="@dimen/signup_between_txt_margin">
+            </EditText>            
+
+            
+
+            <EditText
+                android:id="@+id/edtPhone"
+                style="@style/editext_graybg"
+                android:layout_width="@dimen/signup_edt_width"
+                android:layout_height="@dimen/signup_edt_height"
+                android:inputType="phone"
+                android:hint="Phone Number"
+                android:layout_marginBottom="@dimen/signup_between_txt_margin">
+            </EditText>          
+            
+
+            
+
+            <EditText
+                android:id="@+id/edtPassword"
+                style="@style/editext_graybg"
+                android:layout_width="@dimen/signup_edt_width"
+                android:layout_height="@dimen/signup_edt_height"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:layout_marginBottom="@dimen/signup_between_txt_margin">
+            </EditText>
+
+            
+            <EditText
+                android:id="@+id/edtConfirm"
+                style="@style/editext_graybg"
+                android:layout_width="@dimen/signup_edt_width"
+                android:layout_height="@dimen/signup_edt_height"
+                android:inputType="textPassword"
+                android:hint="Rewrite Password"
+                android:layout_marginBottom="15dp">
+            </EditText>
+
+            
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Register"
+                android:id="@+id/btnRegister"
+                android:layout_gravity="right"
+                android:background="@drawable/image_button"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="42dp" 
+        android:background="@drawable/go_back_icon"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
